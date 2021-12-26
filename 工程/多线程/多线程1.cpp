@@ -40,7 +40,7 @@ public:
     int& m_i;
 };
 
-int main()
+int main1()
 {
     std::cout << "Hello World!\n";
     
@@ -58,6 +58,14 @@ int main()
     MM mm1(num);
     thread test2(mm1);
     test2.join();
+
+    // 使用lamda表达式创建一个线程
+    auto mylamda = []() {
+        cout << "我的第三个线程" << endl;
+    };
+    thread mythread1(mylamda);
+    mythread1.join();
+
 
     cout << "主线程结束了" << endl;
     cout << "主线程结束了1" << endl;
