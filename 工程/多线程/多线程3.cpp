@@ -51,8 +51,11 @@ public:
 		lock(my_mutex1, my_mutex2);
 		lock_guard<mutex> suguard1(my_mutex1, adopt_lock);
 		lock_guard<mutex> suguard2(my_mutex2, adopt_lock);
+
+		//this_thread::sleep_for(std::chrono::seconds(20));
+
 		if (!msgReciveque.empty()) {
-			int com = msgReciveque.front();  // 取元素
+			command = msgReciveque.front();  // 取元素
 			msgReciveque.pop_front();		// 消除
 			//my_mutex1.unlock();
 			//my_mutex2.unlock();
@@ -65,8 +68,9 @@ public:
 	}
 
 	void outMsgReciveQue(){
+		int command = 0;
 		for (int i = 0; i < 1000; i++) {
-			bool result = outMagLULPro(i);
+			bool result = outMagLULPro(command);
 			if (result == true) {
 				cout << "outMagLULPro(),从队列中取出一个元素" << endl;
 			}
@@ -83,7 +87,7 @@ private:
 };
 
 
-int main() {
+int main3() {
 
 	//vector<thread> mythread;
 
