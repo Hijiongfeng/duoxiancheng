@@ -38,7 +38,7 @@ void myPrint3(unique_ptr<int> psd) {
 	cout << "×ÓÏß³ÌID£º" << this_thread::get_id() << endl;
 }
 
-int main() {
+int main2() {
 
 	//int mvar = 1;
 	//int& mvary = mvar;
