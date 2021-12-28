@@ -78,7 +78,7 @@ private:
 };
 
 
-int main() {
+int main4() {
 
 	
 	AA4 myobj;
