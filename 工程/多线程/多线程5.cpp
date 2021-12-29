@@ -70,7 +70,7 @@ void mythread() {		//	线程入口函数
 	return;
 }
 
-int main() {
+int main5() {
 
 	//MyCAS* p_a = MyCAS::getInstance();  // 静态成员函数可以通过 类名直接访问
 	//MyCAS* p_b = MyCAS::getInstance();
