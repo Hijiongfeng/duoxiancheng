@@ -146,6 +146,7 @@
     <ClCompile Include="多线程4.cpp" />
     <ClCompile Include="多线程5.cpp" />
     <ClCompile Include="多线程6.cpp" />
+    <ClCompile Include="多线程7.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -33,5 +33,8 @@
     <ClCompile Include="多线程6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="多线程7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

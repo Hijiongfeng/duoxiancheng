@@ -83,7 +83,7 @@ private:
 };
 
 
-int main() {
+int main7() {
 	AA6 myobj;
 	thread my_thread1(&AA6::outMsgRecvList, &myobj);
 	thread my_thread1_1(&AA6::outMsgRecvList, &myobj);
