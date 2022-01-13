@@ -25,7 +25,7 @@ int mythread11(int val) {
 	return 1;
 }
 
-int main() {
+int main1009() {
 
 	cout << "main()" << " Ïß³ÌID = " << std::this_thread::get_id() << endl;
 

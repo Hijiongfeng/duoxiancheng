@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="多线程1.cpp" />
+    <ClCompile Include="多线程10.cpp" />
     <ClCompile Include="多线程2.cpp" />
     <ClCompile Include="多线程3.cpp" />
     <ClCompile Include="多线程4.cpp" />
