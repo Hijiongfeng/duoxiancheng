@@ -64,7 +64,7 @@ void mythread3(std::future<int>& temf) {
 }
 
 
-int main() {
+int main107() {
 
 	cout << "main() " << " Ïß³ÌID: " << this_thread::get_id() << endl;
 

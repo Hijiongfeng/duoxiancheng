@@ -1,0 +1,8 @@
+# 忽略项目
+/工程/多线程/.vs
+/工程/多线程/Debug
+/工程/多线程/多线程.sln
+/工程/多线程/多线程.vcxproj
+/工程/多线程/多线程.vcxproj.filters
+/工程/多线程/多线程.vcxproj.user
+
